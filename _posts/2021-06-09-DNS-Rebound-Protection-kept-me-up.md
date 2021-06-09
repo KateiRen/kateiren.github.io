@@ -2,18 +2,18 @@
 layout: post
 title:  "How DNS Rebound Protection gets into your way for local HTTPS secured services"
 author: karsten
-categories: [ tutorial ]
+categories: [ tutorial, raspi, docker ]
 ---
 ## What this is about
-For some while I was looking for a convinient solution to leave behind __1Password__ and *KeePassXC* as my central password managers.
-The soon to be star on the horizon was **bitwarden_rs** selfhosting option, now renamed to **vaultwarden**.
+For some while I was looking for a convinient solution to leave behind *1Password* and *KeePassXC* as my central password managers.
+The soon to be star on the horizon was *bitwarden_rs* selfhosting option, now renamed to *vaultwarden*.
 
 The goal - a convienient and secure password vault without any connectivity from outside while retaining automatic synchronization with all devices setup.
 
 ## What is the issue here
 Modern browsers disallow using Web Crypto APIs in insecure contexts - that means without HTTPS.
 
-That's why all tutorials to setup a selfhosted **vaultwarden** service include documentation to spin up another docker instance proving a reverse proxy to establish the HTTPS connection.
+That's why all tutorials to setup a selfhosted *vaultwarden* service include documentation to spin up another docker instance proving a reverse proxy to establish the HTTPS connection.
 
 To get HTTPS working we are lacking two things right now - a valid domain name and the certificates required.
 
@@ -40,3 +40,7 @@ While trying again to change my [FRITZ!Box](https://avm.de/produkte/fritzbox/) D
 *It's not a bug, it's a feature!*
 
 To prevent [DNS Rebind attacks](https://www.ceilers-news.de/serendipity/37-DNS-Rebinding-Ein-altbekannter-Angriff-kompromittiert-Router.html), the router does not allow resolving domains to local IP addresses.
+
+Wow! Easy as that! As this is a security feature, other routers should show the same behaviour. So why did none of the tutoprials mention this?
+
+Anyway, at least now that's resolved for me.
