@@ -23,7 +23,7 @@ Tutorials introduced me to [DuckDNS](https://www.duckdns.org/domains) an easy an
 
 The easiest way to obtain certificates nowadays is [Let's Encrypt](https://letsencrypt.org/).
 
-Going the private network way introduces two obstacles, one documented in all tutorials, the other not.
+**Going the private network way introduces two obstacles, one documented in all tutorials, the other not.**
 
 The first obstacle is, that given the fact that no traffic from outside should get through to the local service, we will not be able to use HTTP validation (putting a specific file on our webspace to prove we own the domain).
 
