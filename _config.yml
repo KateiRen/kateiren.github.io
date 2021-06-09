@@ -4,7 +4,7 @@ title: "KateiRens Home (title)"
 description: "Jekyll template, Medium styled for KateiRen."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
-baseurl: /mediumish-theme-jekyll
+baseurl: /
 google_analytics: ''
 disqus: ''
 mailchimp-list: ''
