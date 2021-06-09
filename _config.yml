@@ -1,6 +1,6 @@
 # Site
-name: "KateiRens Home"
-title: "KateiRens Home"
+name: "KateiRens Home (name)"
+title: "KateiRens Home (title)"
 description: "Jekyll template, Medium styled for KateiRen."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
