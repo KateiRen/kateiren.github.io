@@ -43,4 +43,4 @@ To prevent [DNS Rebind attacks](https://www.ceilers-news.de/serendipity/37-DNS-R
 
 Wow! Easy as that! As this is a security feature, other routers should show the same behaviour. So why did none of the tutoprials mention this?
 
-Anyway, at least now that's resolved for me.
+**Anyway, at least now that's resolved for me.**
