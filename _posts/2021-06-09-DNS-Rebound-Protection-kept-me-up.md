@@ -17,7 +17,9 @@ Modern browsers disallow using Web Crypto APIs in insecure contexts - that means
 
 That's why all tutorials to setup a selfhosted *vaultwarden* service include documentation to spin up another docker instance proving a reverse proxy to establish the HTTPS connection.
 
-To get HTTPS working we are lacking two things right now - a valid domain name and the certificates required.
+To get HTTPS working we are lacking two things right now 
+- a valid domain name and 
+- the certificates required.
 
 Tutorials introduced me to [DuckDNS](https://www.duckdns.org/domains) an easy and free to use service to register subdomains to [duckdns.org](https://www.duckdns.org/domains).
 
