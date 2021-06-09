@@ -54,5 +54,13 @@ Now, whenever creating a new Notebook, Jupyter asks which kernel to use for the 
 - MicroPython - USB **-yeah-**or
 - Python 3
 
+just place a line like this (with your correct port) into the first cell to connect to your MicroPython board (assuming the MicroPython firmware is already flashed and working):
+
+```python
+%serialconnect to --port=COM4 --baud=115200
+```
+
+Any code in this notebook is then send and executed directly on your ESP32/ESP8266 board.
+
 A very thouroughful guide including more options can be found [here](https://lemariva.com/blog/2019/01/micropython-programming-an-esp-using-jupyter-notebook
 ).
