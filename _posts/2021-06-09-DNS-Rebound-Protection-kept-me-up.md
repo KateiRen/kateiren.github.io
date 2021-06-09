@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "How DNS Rebound Protection gets into your way for local SSL secured services"
+title:  "How DNS Rebound Protection gets into your way for local HTTPS secured services"
 author: karsten
 categories: [ tutorial ]
 ---
@@ -11,7 +11,7 @@ The soon to be star on the horizon was **bitwarden_rs** selfhosting option, now 
 The goal - a convienient and secure password vault without any connectivity from outside while retaining automatic synchronization with all devices setup.
 
 # What is the issue here
-Modern browsers disallow using Web Crypto APIs in insecure contexts - that means without SSL.
+Modern browsers disallow using Web Crypto APIs in insecure contexts - that means without HTTPS.
 
 That's why all tutorials to setup a selfhosted **vaultwarden** service include documentation to spin up another docker instance proving a reverse proxy to establish the HTTPS connection.
 
@@ -28,3 +28,7 @@ The first obstacle is, that given the fact that no traffic from outside should g
 That is documented and workarounds using DNS challenge (adding a specific TXT record in the DNS zone of the domain to prove it's ours) are introduced.
 
 However, here the touble started and I lost several evenings trying to fix it.
+
+None of the options (caddy with DNS auth module, nginx with separately fetched certificates, not recommended rocket option) did work and created strange results.
+
+Trying to ping, nslookup, traceroute my newly created subdomain from inside and outside my network produced varying results and I thought I found my enemy in [pi-hole](https://pi-hole.net/). So I spent several days trying to 
