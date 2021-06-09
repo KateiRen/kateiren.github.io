@@ -1,7 +1,7 @@
 # Site
-name: "KateiRens Home (name)"
+name: "KateiRens Geek Notes"
 title: "KateiRens Home (title)"
-description: "Jekyll template, Medium styled for KateiRen."
+description: "Things I do so rarely that I like to document them for me (and you?)"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /
@@ -30,6 +30,15 @@ authors:
     web: https://www.wowthemes.net
     twitter: https://twitter.com/wowthemesnet
     description: "This is the author box. Write a short description of the author here. You are currently previewing Mediumish demo, a Jekyll template compatible with Github pages."
+  karsten:
+    name: Karsten
+    display_name: Karsten    
+    avatar: 'assets/images/avatar.png'
+    gravatar: ca4804a6be5026c92c0ccb94d523b0e5
+    email: karsten.hartlieb@gmx.de
+    web: https://www.hartlieb-web.de
+    twitter: https://twitter.com/karstenhartlieb
+    description: "Technology addicted geek, trying to get my hands on everything fancy from 3d printers to ESP32 boards and everything else Ali has to offer."
 
 # Plugins
 plugins:
