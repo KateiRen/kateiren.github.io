@@ -24,6 +24,8 @@ With Python being one of the most used programming languages and numbers ever in
 
 With [REPL](https://docs.micropython.org/en/latest/wipy/tutorial/repl.html?highlight=repl) and [WebREPL](https://docs.micropython.org/en/latest/esp8266/tutorial/repl.html?highlight=webrepl) accessing and controlling the MicroController is already very conviniant.
 
+But still, with my try-and-error based programming style, frequent code transfer, restarts and reconnects take some time.
+
 ## Let's combine the joy!
 
 What if we could combine MicroPython and Jupyter? What if we could use the ease of use of the web application with live code support with the tailored programming language provided for MicroControllers? Wasn't Jupyter Notebook said to support over 40 languages?
@@ -49,8 +51,8 @@ jupyter kernelspec list
 ```
 
 Now, whenever creating a new Notebook, Jupyter asks which kernel to use for the new document:
-- ==MicroPython - USB== or
-- ==Python 3==
+- MicroPython - USB **-yeah-**or
+- Python 3
 
 A very thouroughful guide including more options can be found [here](https://lemariva.com/blog/2019/01/micropython-programming-an-esp-using-jupyter-notebook
 ).
