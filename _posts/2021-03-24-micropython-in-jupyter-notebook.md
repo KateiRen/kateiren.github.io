@@ -3,7 +3,7 @@ layout: post
 title:  "Programming ESP32/ESP8266 in MicroPython via Jupyter Notebook"
 author: karsten
 categories: [ tutorial, micropython ]
-image: "https://images.unsplash.com/photo-1586588833333-08622b507265?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1778&q=80"
+image: assets/images/photo-1586588833333-08622b507265.jpg
 beforetoc: "Photo by Harrison Broadbent on Unsplash"
 ---
 
