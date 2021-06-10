@@ -34,6 +34,8 @@ Well the answer lays here [https://github.com/jupyter/jupyter/wiki/Jupyter-kerne
 
 Wow! There is a specific Jupyter Kernel supporting MicroPython for ESP8266/ESP32 based boards!
 
+### Installation
+
 The linked [github repo](https://github.com/goatchurchprime/jupyter_micropython_kernel/) includes the documentation to install and get started.
 
 In my case (Windows 10, Python and Jupyter already installed) the following commands did the trick:
@@ -51,8 +53,10 @@ jupyter kernelspec list
 ```
 
 Now, whenever creating a new Notebook, Jupyter asks which kernel to use for the new document:
-- MicroPython - USB **-yeah-**or
+- MicroPython - USB **-yeah-** or
 - Python 3
+
+### Getting started
 
 just place a line like this (with your correct port) into the first cell to connect to your MicroPython board (assuming the MicroPython firmware is already flashed and working):
 
