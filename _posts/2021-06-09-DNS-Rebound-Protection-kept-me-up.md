@@ -43,7 +43,9 @@ While trying again to change my [FRITZ!Box](https://avm.de/produkte/fritzbox/) D
 
 *It's not a bug, it's a feature!*
 
-To prevent [DNS Rebind attacks](https://www.ceilers-news.de/serendipity/37-DNS-Rebinding-Ein-altbekannter-Angriff-kompromittiert-Router.html), the router does not allow resolving domains to local IP addresses.
+To prevent [DNS Rebind attacks](https://www.ceilers-news.de/serendipity/37-DNS-Rebinding-Ein-altbekannter-Angriff-kompromittiert-Router.html), the router does not allow resolving domains to local IP addresses!
+
+To get going, we just need to enter our domain including subdomain as an exception and everything works like magic!
 
 Wow! Easy as that! As this is a security feature, other routers should show the same behaviour. So why did none of the tutoprials mention this?
 
