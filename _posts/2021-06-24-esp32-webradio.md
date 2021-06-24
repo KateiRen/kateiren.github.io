@@ -41,8 +41,6 @@ The code can be found [here](https://github.com/KateiRen/MicroPython-Webradio).
 
 ![A photograpgh of the breadboard with an ESP32 devkit connected to the VS1003 board and headphones](/assets/images/2021-06/20210622-IMG_20210622_124122.jpg "A photograpgh of the breadboard with an ESP32 devkit connected to the VS1003 board")
 
-![A photograpgh of the breadboard with an ESP32 devkit connected to the VS1003 board and a speaker](/assets/images/2021-06/20210622-IMG_20210622_124444.jpg "A photograpgh of the breadboard with an ESP32 devkit connected to the VS1003 board")
-
 ![A photograpgh of the breadboard with an ESP32 devkit connected to the VS1003 board](/assets/images/2021-06/20210622-IMG_20210622_124506.jpg "A photograpgh of the breadboard with an ESP32 devkit connected to the VS1003 board")
 
 ## Additional Ideas
