@@ -35,7 +35,7 @@ The point is, more often then not, the stream is not directly being served from 
 
 That means we need to extract the new ressource address and create a new connection and request.
 
-If that is working, we can continupusly fetch data and ship to the VS1003.
+If that is working, we can continuously fetch data and ship to the VS1003.
 
 The code can be found [here](https://github.com/KateiRen/MicroPython-Webradio).
 
@@ -49,11 +49,11 @@ The code can be found [here](https://github.com/KateiRen/MicroPython-Webradio).
 
 What is the perfect buffer size between receiving new stream data and sending to the VS10xx?
 
-Initially, I intended to create a stress test systematically trying different buffer sizes with increasing interruptions (delays) in between. The radio is now playing for more than 12 hours continuously - that means the buffer size might not be ideal but at least good enough already.
+Initially, I intended to create a stress test systematically trying different buffer sizes with increasing interruptions (delays) in between. However, the radio is now playing for more than 12 hours continuously already - that means the buffer size is - if not ideal - at least good enough already.
 
 ### Rotary Encoder
 
-With the radio stations stored in an array, it almost calls for a rotary encoder to be hooked up to be able to control volume and switch between the stored stations.
+With the radio stations stored in an array, it almost calls for a rotary encoder to be able to control volume and switch between the stored stations.
 
 ### MQTT Control
 
