@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "An Esp32 Webradio based on the VS10xx chipset"
+title:  "An ESP32 Webradio based on the VS10xx chipset"
 author: karsten
 categories: [ esp32, micropython ]
 image: assets/images/2021-06/20210622-IMG_20210622_124444.jpg
